@@ -22,3 +22,11 @@ console.log(d);
 let e = [1, 10, 8, 11];
 let f = e.find(x => x > 10);
 console.log(f);
+
+
+//---------------------
+//Exercici 4
+let g = [13, 7, 8, 21];
+let h = g.reduce((accumulator, current) => accumulator + current);
+
+console.log(h);
