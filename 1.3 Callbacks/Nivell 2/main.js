@@ -15,3 +15,18 @@ function esperarISaludar(nom, fn) {
 }
 
 esperarISaludar('Pau', saludar);
+
+
+//---------------------
+//Exercici 4
+function imprimir(element) {
+    console.log(element + ' processat!');
+}
+
+function processarElements(array, fn) {
+    array.forEach(element => {
+        fn(element);
+    });
+}
+
+processarElements(['e1', 'e10', 'e5', 'e34'], imprimir);
