@@ -21,3 +21,16 @@ function suma(...args) {
 }
 
 console.log(suma(12, 45, 78, 5, 9, 0, 2, 8));
+
+
+//---------------------
+//Exercici 3
+let objecte1 = {
+    nom: 'Taula',
+    preu: 250
+}
+
+let objecte2 = {...objecte1};
+objecte2.preu = 300;
+
+console.log(objecte1, objecte2);
