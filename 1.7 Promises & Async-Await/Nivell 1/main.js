@@ -34,3 +34,13 @@ const promise2 = (input) => {
 promise2('Hola');
 promise2('Hola!');
 promise2('Adeu');
+
+
+//---------------------
+//Exercici 4
+async function funcioAsincrona() {
+    const resultat = await promise;
+    console.log(resultat);
+}
+
+funcioAsincrona();
